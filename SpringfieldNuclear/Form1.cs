@@ -22,7 +22,7 @@ namespace SpringfieldNuclear
         private void startButton_Click(object sender, EventArgs e)
         {
             //change background colour of form
-            this.BackColor = Color.DodgerBlue;
+            this.BackColor = Color.CadetBlue;
 
             //create sound player and play sound
             SoundPlayer alertPlayer = new SoundPlayer(Properties.Resources.alert);
