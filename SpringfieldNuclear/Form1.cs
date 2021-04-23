@@ -29,8 +29,8 @@ namespace SpringfieldNuclear
             alertPlayer.Play();
 
             //change the colour of the state labels
-            reactor1StateLabel.BackColor = Color.Red;
-            reactor2StateLabel.BackColor = Color.Red;
+            reactor1StateLabel.BackColor = Color.Purple;
+            reactor2StateLabel.BackColor = Color.Purple;
 
             //change the message in output label
             outputLabel.Text = "Meltdown Happening";
@@ -49,8 +49,8 @@ namespace SpringfieldNuclear
             Thread.Sleep(1000);
 
             //change the colour of the state labels
-            reactor1StateLabel.BackColor = Color.Red;
-            reactor2StateLabel.BackColor = Color.Red;
+            reactor1StateLabel.BackColor = Color.Purple;
+            reactor2StateLabel.BackColor = Color.Purple;
         }
     }
 }
