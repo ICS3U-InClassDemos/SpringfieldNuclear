@@ -25,7 +25,7 @@ namespace SpringfieldNuclear
             sp.Play();
 
             reactorStateLabel.BackColor = Color.Red;
-            outputLabel.Text = "Meltdown Happening";
+            outputLabel.Text = "Something is wrong";
             Refresh();
             Thread.Sleep(1000);
 
